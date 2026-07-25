@@ -1,22 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CoverCraft 📄✨
 
-# Run and deploy your AI Studio app
+**CoverCraft** is an Android app that automatically generates polished academic cover pages — complete with customizable templates, university presets, and one-tap export to PDF or image.
 
-This contains everything you need to run your app locally.
+No more manually formatting title pages for every assignment — pick a template, fill in your details, and export.
 
-View your app in AI Studio: https://ai.studio/apps/13c741ac-c19f-4a44-8102-37633fc53524
+## Features
 
-## Run Locally
+- 🎓 **University presets** — quick-start templates matching common institutional cover page formats
+- 🎨 **Customizable templates** — adjust layout, fields, and styling to match your assignment's requirements
+- 📤 **Export options** — save your finished cover page as a **PDF** or an **image**
+- 📱 **Native Android app** — built with Kotlin and Jetpack/Gradle tooling
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## Tech Stack
 
+- **Language:** Kotlin
+- **Platform:** Android
+- **Build system:** Gradle (Kotlin DSL)
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+## Download
+
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/ShahtabSaif/CoverCraft/releases/tag/v1.0.0)
+
+Grab the latest release (v1.0.0) and install it on your Android device.
+
+## Project Structure
+
+```
+CoverCraft/
+├── app/                  # Main Android application module
+├── gradle/                # Gradle wrapper files
+├── build.gradle.kts        # Root Gradle build config
+├── settings.gradle.kts      # Gradle project settings
+└── metadata.json           # App metadata
+```
+
+## Roadmap
+
+- [ ] Additional university/institution templates
+- [ ] Export history and saved drafts
+- [ ] Custom font and branding support
+
+## Contributing
+
+This is currently a personal/learning project, but suggestions and issues are welcome — feel free to open an issue or a pull request.
+
+## License
+
+No license has been specified yet. All rights reserved by default until a license is added.
+
+## Contact
+
+Built by [Shahtab Hossain](https://github.com/ShahtabSaif) — feel free to reach out via [LinkedIn](https://www.linkedin.com/in/shahtab-hossain-883758372/) or [email](mailto:shahtabhossain05@gmail.com).
