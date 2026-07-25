@@ -1,0 +1,6 @@
+{
+  "name": "CoverCraft",
+  "description": "Automated academic cover page generator with customizable templates, PDF & Image export, and university presets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
